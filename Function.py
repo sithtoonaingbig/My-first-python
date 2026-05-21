@@ -4,8 +4,8 @@ def printMyName(Name):
 
 printMyName("HLa HLa")
 
-def printMyAge():
-    print("I'm 18 years old")
+def printMyAge(age):
+    print("I'm 18 years old",age)
 
-printMyAge()
+printMyAge(18)
 

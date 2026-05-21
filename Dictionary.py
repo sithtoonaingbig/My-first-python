@@ -6,9 +6,9 @@ myDiction = {
 
 print (myDiction)
 
-print (myDiction["name"])
+print (myDiction["adress"])
 
-myDiction['name']='Aung Aung'
+myDiction["adress"]="Tachileik"
 
 for i in myDiction:
     print("i is",i)

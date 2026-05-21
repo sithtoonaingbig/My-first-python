@@ -1,15 +1,15 @@
-def printNamelist(argNamelist):
-    for name in argNamelist:
-        print(name)
+def printmyName(something):
+    for i in something:
+        print(i)
 
-myNamelist = ["Aung Aung","Hla Hla","Mya Mya"]
+Studentsname =["Aung","Hla","Aye",2]
 
-print(len(myNamelist))
+print(len(Studentsname))
 
-print(myNamelist[2])
+print(type(Studentsname))
 
-printNamelist(myNamelist)
+print(Studentsname[3])
 
-myNamelist[0]="Aung"
+Studentsname[0] = "Aung Aung"
 
-printNamelist(myNamelist)
+printmyName(Studentsname)
