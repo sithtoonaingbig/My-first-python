@@ -1,11 +1,12 @@
-def printMyName(Name):
-    age = 18
-    print(Name,age)
+def printmyName(Name):
+    Name = "Hla Hla"
+    print(Name)
 
-printMyName("HLa HLa")
+printmyName("Name")
 
-def printMyAge(age):
-    print("I'm 18 years old",age)
+def printmyAge(Age):
+    Age = 18
+    print(Age)
 
-printMyAge(18)
+printmyAge(18)
 

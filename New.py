@@ -12,4 +12,4 @@ print(Studentsname[0])
 
 Studentsname[0] = "Aung Aung"
 
-printmyName("Studentsname")
+printmyName(Studentsname)
